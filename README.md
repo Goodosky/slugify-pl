@@ -9,7 +9,7 @@ In result it's smaller and faster than original slugify. Bundle size is 385B com
 - Only Polish diacritics are supported
 - The `lower` option is true by default, lowercasing all slugs
 - The `locale` option has been removed
-- Special characters (eg. `$ -> dollar` or `> -> greater`) are not mapped to words. Instead, `slugify-pl` removes unrecognized symbols (with one exception: `% -> procent`)
+- Special characters are not mapped to words (eg. `$ -> dollar` or `> -> greater`). Instead, `slugify-pl` removes unrecognized symbols (with one exception: `% -> procent`)
 
 ## Installation
 
